@@ -1,0 +1,96 @@
+
+.rounded-lg {
+    border-radius: 1rem !important;
+  }
+  
+  .text-small {
+    font-size: 0.9rem !important;
+  }
+  
+  .custom-separator {
+    width: 5rem;
+    height: 6px;
+    border-radius: 1rem;
+  }
+  
+  .text-uppercase {
+    letter-spacing: 0.2em;
+  }
+  
+  /*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSES
+  * ==========================================
+  *
+  */
+  
+  body {
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+    color: #514B64;
+    min-height: 100vh;
+  }
+
+  .header {
+    padding: 200px;
+    text-align: center;
+    background:  rgb(0, 153, 255);
+    color: white;
+    font-size: 40px;
+  }
+  .my-custom-class {
+    text-align: center;
+    font-size: larger;
+  }
+  .toolbar-flex {
+    flex: 1 0.5 auto;
+  }
+
+  .nav-item{
+    font-size: larger;
+    
+  }
+  .tab {
+    overflow: hidden;
+    margin:auto;
+    width:30%;
+  }
+  
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    float: center;
+    border: 5cm;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  .tablinks{
+    margin-right: 15px;
+  }
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color:white;
+  }
+  
+  /* Create an active/current tablink class */
+  
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 45px 6px;
+    text-align: center;
+    border-top: none;
+    font-size: larger;
+  }
+  
+  bg-white p-5 rounded-lg shadow{
+    text-align: center;
+  }
+  
+
+ 
